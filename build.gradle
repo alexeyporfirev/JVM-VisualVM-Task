@@ -10,7 +10,12 @@ repositories {
 }
 
 dependencies {
-    implementation("org.reflections:reflections:0.9.12")
+//    implementation("org.reflections:reflections:0.9.12")
+    implementation 'org.reflections:reflections:0.9.12'
+//    implementation 'org.reflections:reflections:0.9.5-RC2'
+
+//    implementation group: 'org.reflections', name: 'reflections', version: '0.9.5-RC2'
+
 
     implementation group: 'org.springframework', name: 'spring-core', version: '5.2.7.RELEASE'
     implementation group: 'io.vertx', name: 'vertx-core', version: '3.9.2'
